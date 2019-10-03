@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample HTML Demonstration Page</title>
+    <style>
+        * {
+            margin: auto;
+            width: auto;
+            height: auto;
+        }
+
+        body {
+            background-color: gray;
+        }
+
+        div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* newsline {
+            font-size: 42px;
+            font-style: bold;
+            font-weight: 400;
+        } */
+
+        .wrapper {
+        width: 60%;
+        background: grey;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+
+      } 
+
+        .head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .head a {
+            margin: 0;
+            padding: 0;
+        }
+
+        .hello_container {
+            display: flex;
+            align-items: center;
+            background: pink;
+            height: 150px;
+        }
+
+        /* .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        } */
+
+        .textbox {
+            height: 100px;
+            width: 350px;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: space-around;
+            justify-content: center;
+            
+        }
+
+        .first_box {
+            background: red;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .second_box {
+            background: red;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: space-around;
+        }
+
+        .third {
+            background: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <h1>
+            Sample Header
+        </h1>
+        <a href="#">anchor tag to nowhere</a>
+    </div>
+    <div class="hello_container">
+        <p>
+            hello
+        </p>
+    </div>
+    <div>
+        <div class="wrapper">
+            <div class="first_box textbox">
+                <p>
+                    click me I'm great
+                </p>
+            </div>
+            <div class="second_box textbox">
+            </div>
+        </div>
+        <div class="third textbox">
+            <p>
+                World #2
+            </p>
+        </div>
+</body>
+</html>
